@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+    <title>Counter</title>
+  </head>
+  <body>
+      <div>
+            <h1 class="h1">Counter</h1>
+            <h5 class="h5">you visit the page {{session["count"]}} times</h5>
+            <form action="/count" method="post">
+               <p>add 2 visits <input type="submit" class="btn btn-outline-primary" name="alter" value="add"></button></p>
+               <p>reset Counter <input type="submit" class="btn btn-outline-danger"name="alter" value="reset" id="btn"></button></p>
+            </form>
+
+
+
+      </div>
+
+  </body>
+</html>

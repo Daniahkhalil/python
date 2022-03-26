@@ -1,0 +1,16 @@
+
+
+div{
+    width: 36%;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+ 
+}
+input{
+    background-color: pink;
+}
+#btn{
+    background-color: blue;
+}
